@@ -76,6 +76,14 @@ The agent works with your pre-processed and indexed data, ensuring that sensitiv
 
 The following improvements and features are planned for future releases:
 
+Additional connector support e.g Outlook, Microsoft Teams, Jira, Dropbox, One Drive
+
+Authentication and Access levels (Certain users like only the manager is able to access the agent)
+
+An out of office agent for your colleagues on vacation
+
+Adding/Deleting embeddings in existing agents
+
 ### Data Processing
 - Implement improved chunking strategies for better context preservation
 - Optimize document segmentation for more accurate responses
@@ -91,7 +99,6 @@ The following improvements and features are planned for future releases:
 ### Security and Privacy Enhancements
 - Granular access control for different types of information
 - Role-based access restrictions
-- Automated removal of sensitive information (PII, confidential data)
 - Configurable information filtering before vector store indexing
 - Audit logging of all queries and responses
 
