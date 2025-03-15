@@ -72,17 +72,14 @@ The agent can access and utilize:
 
 The agent works with your pre-processed and indexed data, ensuring that sensitive information is handled securely within your configured environment.
 
-## Future Work
+## Future Roadmap
 
 The following improvements and features are planned for future releases:
 
-Additional connector support e.g Outlook, Microsoft Teams, Jira, Dropbox, One Drive
-
-Authentication and Access levels (Certain users like only the manager is able to access the agent)
-
-An out of office agent for your colleagues on vacation
-
-Adding/Deleting embeddings in existing agents
+- Additional connector support e.g Outlook, Microsoft Teams, Jira, Dropbox, One Drive
+- Authentication and Access levels (Certain users like only the manager is able to access the agent)
+- An out of office agent for your colleagues on vacation
+- Adding/Deleting embeddings in existing agents
 
 ### Data Processing
 - Implement improved chunking strategies for better context preservation
