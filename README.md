@@ -21,7 +21,7 @@ The Knowledge Preservation agent is designed to:
 ## Features
 
 - Vector store-based document retrieval
-- Integration with Slack messages and work documentation
+- Integration via connectors using the Slack API, Gmail API, and Google Drive API
 - Powered by LLaMA v3 70B Instruct model
 - Vector store-based document retrieval
 - Configurable parameters for different use cases
