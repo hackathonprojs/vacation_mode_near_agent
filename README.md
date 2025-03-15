@@ -109,7 +109,7 @@ Current version: 0.0.2
 
 ## License
 
-Proprietary - All rights reserved 
+This project is licensed under the MIT License 
 
 ## Setup
 
