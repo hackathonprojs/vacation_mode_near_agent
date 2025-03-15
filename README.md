@@ -1,6 +1,6 @@
 # Knowledge Preservation Agent
 
-An AI-powered assistant designed to preserve and transfer knowledge when team members leave the company. It maintains institutional memory by making departed employees' work knowledge, decisions, and context accessible through their documentation history. The system analyzes historical Slack messages, documents, and other work artifacts to answer questions about past projects, decisions, and processes. As a secondary feature, it can also serve as a helpful proxy while current team members are on vacation, ensuring uninterrupted time off.
+An AI-powered assistant designed to preserve and transfer knowledge when team members leave the company. It maintains institutional memory by making departed employees' work knowledge, decisions, and context accessible through their documentation history. The system uses Slack messages, Google drive documents, Gmail emails, and other work artifacts to answer questions about past projects, decisions, and processes. As a secondary feature, it can also serve as a helpful proxy while current team members are on vacation, ensuring uninterrupted time off.
 
 [View Presentation](https://docs.google.com/presentation/d/17McpAm_a2MEW5haEsuEvKD8Fb_gE-fqYbdHGKLkCGm8/edit?usp=sharing)
 
