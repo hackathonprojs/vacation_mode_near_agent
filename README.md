@@ -128,18 +128,18 @@ This project is licensed under the MIT License
 
 5. Place in root directory of project folder
    
-![image](https://github.com/user-attachments/assets/57e72115-018a-4730-9565-b6aa7c303c54)
+![image](https://i.imgur.com/Xd5ZRT5.png)
 
 
 **For slack:**
 
 You will need to create a slack app and get a slackbot token in order to read messages from your workspace
 
-![image](https://github.com/user-attachments/assets/ce0f3d33-1373-4caa-aa22-8b0a7c28d1c1)
+![image](https://i.imgur.com/wuPtijL.png)
 
 The following scopes are required:
 
-![image](https://github.com/user-attachments/assets/10f65050-d577-4814-b63e-b0420ed12d91)
+![image](https://i.imgur.com/JO5g5vh.png)
 
 
 **Create a .env file:**
