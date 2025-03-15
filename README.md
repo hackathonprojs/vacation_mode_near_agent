@@ -16,12 +16,8 @@ The Knowledge Preservation agent is designed to:
 
 ## Features
 
-- Comprehensive knowledge preservation system
-- Intelligent context understanding and retrieval
-- Integration with multiple data sources:
-  - Slack conversation history
-  - Work documentation and artifacts
-  - Project discussions and decisions
+- Vector store-based document retrieval
+- Integration with Slack messages and work documentation
 - Powered by LLaMA v3 70B Instruct model
 - Vector store-based document retrieval
 - Configurable parameters for different use cases
