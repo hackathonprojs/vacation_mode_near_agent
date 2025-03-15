@@ -66,6 +66,7 @@ The agent automatically processes incoming queries and responds with relevant in
 The agent can access and utilize:
 - Slack messages
 - Google Drive documents
+- Gmail emails
 - Other indexed work-related content
 
 ## Privacy and Security
