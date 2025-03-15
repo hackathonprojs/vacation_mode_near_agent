@@ -35,14 +35,24 @@ The Knowledge Preservation agent is designed to:
 ### Installations
 
 Upload data into vector datastore
-```python3 /home/t/.nearai/registry/solwu.near/vacation-mode/0.0.1/vector.py```
+
+```
+python3 /home/t/.nearai/registry/solwu.near/vacation-mode/0.0.1/vector.py
+```
+
 This uploads all .md file in this folder and underlying folders.
 
 Run agent locally
-```nearai agent interactive /home/t/.nearai/registry/solwu.near/vacation-mode/0.0.1 --local```
+
+```
+nearai agent interactive /home/t/.nearai/registry/solwu.near/vacation-mode/0.0.1 --local
+```
 
 Upload the agent to Near AI Hub
-```nearai registry upload /home/t/.nearai/registry/solwu.near/vacation-mode/0.0.1```
+
+```
+nearai registry upload /home/t/.nearai/registry/solwu.near/vacation-mode/0.0.1
+```
 
 ### Requirements
 
