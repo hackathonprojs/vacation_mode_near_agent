@@ -1,27 +1,33 @@
-# Vacation Mode Agent
+# Knowledge Preservation Agent
 
-An AI-powered assistant that helps answer questions about your work while you're away on vacation or off work. This agent acts as your knowledgeable proxy, responding to your manager's and colleagues' work-related questions using your Slack messages and other work documentation, allowing you to enjoy an uninterrupted vacation.
+An AI-powered assistant designed to preserve and transfer knowledge when team members leave the company. It maintains institutional memory by making departed employees' work knowledge, decisions, and context accessible through their documentation history. The system analyzes historical Slack messages, documents, and other work artifacts to answer questions about past projects, decisions, and processes. As a secondary feature, it can also serve as a helpful proxy while current team members are on vacation, ensuring uninterrupted time off.
 
 [View Presentation](https://docs.google.com/presentation/d/17McpAm_a2MEW5haEsuEvKD8Fb_gE-fqYbdHGKLkCGm8/edit?usp=sharing)
 
 ## Overview
 
-The Vacation Mode agent is designed to:
-- Answer your manager's and colleagues' questions while you're away
-- Maintain work continuity without disturbing your vacation time
-- Access and search through Slack messages and other work-related documents
-- Provide relevant context from your communication history
-- Help reduce work interruptions during your time off
+The Knowledge Preservation agent is designed to:
+- Preserve institutional knowledge when employees depart
+- Provide insights into past decisions and their context
+- Answer questions about completed projects and processes
+- Make historical work discussions and documentation searchable
+- Maintain continuity of knowledge across team changes
+- Additionally, support current employees during vacation time
 
 ## Features
 
-- Vector store-based document retrieval
-- Integration with Slack messages and work documentation
+- Comprehensive knowledge preservation system
+- Intelligent context understanding and retrieval
+- Integration with multiple data sources:
+  - Slack conversation history
+  - Work documentation and artifacts
+  - Project discussions and decisions
 - Powered by LLaMA v3 70B Instruct model
-- Configurable model parameters
-- Efficient context-aware responses
+- Vector store-based document retrieval
+- Configurable parameters for different use cases
 
 ## Technical Details
+
 
 ### Requirements
 
