@@ -5,7 +5,7 @@ An AI-powered assistant designed to preserve and transfer knowledge when team me
 [View Presentation](https://docs.google.com/presentation/d/17McpAm_a2MEW5haEsuEvKD8Fb_gE-fqYbdHGKLkCGm8/edit?usp=sharing)
 
 ## Demo Video
-https://docs.google.com/presentation/d/17McpAm_a2MEW5haEsuEvKD8Fb_gE-fqYbdHGKLkCGm8/edit#slide=id.g340d32eb7a8_3_76
+https://www.youtube.com/watch?v=de8KZoSgMd4
 
 
 ## Overview
