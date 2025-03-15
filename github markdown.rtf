@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab560
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 **For a gmail service account:**\
+\
+1. Create a service account for your organization\
+   \
+2. Open the service account in your cloud console and add a key\
+\
+3. Add key for service account\
+   \
+   ![image]( https://i.imgur.com/A2wpnIH.png)\
+  \
+   \
+4. In the dropdown menu choose create key, then choose key type json\
+\
+5. Place in root directory of project folder\
+   \
+![image](https://github.com/user-attachments/assets/57e72115-018a-4730-9565-b6aa7c303c54)\
+\
+\
+**For slack:**\
+\
+You will need to create a slack app and get a slackbot token in order to read messages from your workspace\
+\
+![image](https://github.com/user-attachments/assets/ce0f3d33-1373-4caa-aa22-8b0a7c28d1c1)\
+\
+The following scopes are required:\
+\
+![image](https://github.com/user-attachments/assets/10f65050-d577-4814-b63e-b0420ed12d91)\
+\
+\
+**Create a .env file:**\
+\
+Create a .env file inside root directory of your project replacing the follow fields with yours\
+\
+```\
+SLACK_BOT_TOKEN=\{INSERT TOKEN HERE\}\
+\
+SERVICE_ACCOUNT_FILE_PATH=\{PATH TO SERVICE ACCOUNT JSON FILE\}\
+\
+DELEGATED_USER_EMAIL=\{THE EMAIL OF THE USER YOU IN YOUR ORGANIZATION YOU WANT TO PULL EMAILS FROM e.g david@coolcompany.ai\}\
+```\
+\
+**Install the dependencies:**\
+```\
+python -m venv venv\
+\
+venv\\Scripts\\activate\
+\
+pip install -r requirements.txt\
+```\
+\
+To run the connector scripts to pull user's emails, google drive documents, and slack workspace messages:\
+```\
+python .\\gmail_connector.py\
+\
+python .\\google_drive_connector.py\
+\
+python .\\slack_connector.py\
+```\
+\
+Remove pii from the connector output:\
+```\
+python .\\pii_remover.py\
+```\
+\
+Covert json output to markdown before uploading to agent\
+```\
+python .\\json_to_markdown.py\
+```\
+\
+\
+\
+}

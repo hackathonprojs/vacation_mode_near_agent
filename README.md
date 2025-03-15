@@ -2,6 +2,8 @@
 
 An AI-powered assistant that helps answer questions about your work while you're away on vacation or off work. This agent acts as your knowledgeable proxy, responding to your manager's and colleagues' work-related questions using your Slack messages and other work documentation, allowing you to enjoy an uninterrupted vacation.
 
+[View Presentation](https://docs.google.com/presentation/d/17McpAm_a2MEW5haEsuEvKD8Fb_gE-fqYbdHGKLkCGm8/edit?usp=sharing)
+
 ## Overview
 
 The Vacation Mode agent is designed to:
