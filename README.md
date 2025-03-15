@@ -126,9 +126,11 @@ This project is licensed under the MIT License
    
 4. In the dropdown menu choose create key, then choose key type json
 
-5. Place in root directory of project folder
+   ![image](https://i.imgur.com/Xd5ZRT5.png)
+
+6. Place in root directory of project folder
    
-![image](https://i.imgur.com/Xd5ZRT5.png)
+
 
 
 **For slack:**
