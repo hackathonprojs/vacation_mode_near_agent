@@ -25,6 +25,9 @@ The Knowledge Preservation agent is designed to:
 - Powered by LLaMA v3 70B Instruct model
 - Vector store-based document retrieval
 - Configurable parameters for different use cases
+- Uses OCR to extract text from Google Drive documents and Gmail attachments.
+- Integrates the Microsoft Presidio SDK to detect and remove Personally Identifiable Information (PII) before embedding.
+
 
 ## Technical Details
 
